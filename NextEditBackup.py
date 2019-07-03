@@ -21,6 +21,7 @@ import os
 
 #Retrieves today's date using the datetime function.
 todaysDate = datetime.now()
+failed = 0;
 
 #Creates the filename based on today's date and then prints out text saying what the file will be called.
 nextEditZip = ("nexteditbackup"+str(todaysDate.month)+"-"+str(todaysDate.day)+"-"+str(todaysDate.year)+".zip")
